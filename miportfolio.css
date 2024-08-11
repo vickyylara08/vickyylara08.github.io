@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #4172bd;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;/* Aumenta el tamaño del padding para hacer la barra más gruesa */
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    display: inline-block; /* Cambiar inline-block para evitar que tome todo el ancho */
+    margin: 0; /* Eliminar el auto-centro */
+    border-radius: 50%; /* Hacer la imagen redonda */
+    float: left; /* Alinear la imagen a la izquierda */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul a {
+    text-decoration: navajowhite;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+nav ul a:hover {
+    background-color: #575757;
+}
+
+/* Estilos de la clase .presentacion */
+.presentacion {
+    background-color: #e2e2e2;
+    padding: 20px;
+    text-align: center;
+}
+
+.presentacion h1, .presentacion h2, .presentacion h3 {
+    margin: 10px 0;
+}
+
+/* Separador */
+hr {
+    margin: 20px 0;
+}
+
+/* Estilos de la clase .section-content */
+.section-content {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flecha-abajo {
+    text-align: center; /* Centrar horizontalmente la imagen */
+    margin-top: 20px; /* Espacio superior opcional */
+}
+
+.flecha-abajo img {
+    max-width: 150px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+/* Estilos para elementos por ID */
+#datosmios img, #Estudios img, #expelab img, #contacto img {
+    max-width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Estilos para secciones individuales */
+#datosmios, #Estudios, #expelab, #contacto {
+    text-align: center;
+    padding: 20px;
+    background-color: #6e8dbb;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto p mark{
+    background-color:rgb(0, 107, 110);
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
